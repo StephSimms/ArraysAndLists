@@ -50,14 +50,20 @@ using System.Collections.Generic;
         //Console.WriteLine(numArray1[numArray]);
         //Console.ReadLine();
 
-        Console.WriteLine("Select an index of the array between 0 - 6");
-        int yourstringarray = Convert.ToInt32(Console.ReadLine());
-        string[] yourstringArray1= new string[] { "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday" };
-        
-        Console.WriteLine(yourstringArray1[yourstringarray]);
-        Console.ReadLine();
+        //Console.WriteLine("Select an index of the array between 0 - 6");
+        //int yourstringarray = Convert.ToInt32(Console.ReadLine());
+        //string[] yourstringArray1= new string[] { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
+        //if (yourstringarray > 6)
+        //{
+        //    Console.WriteLine("You have selected an index that does not exist.");
+        //}
+        //else
+        //{
+        //    Console.WriteLine(yourstringArray1[yourstringarray]);
+        //}
+        //Console.ReadLine();
 
-        //Console.WriteLine("Select an index of the list between 0 -3");
+        //Console.WriteLine("Select an index of the list between 0 - 3");
         //int list = Convert.ToInt32(Console.ReadLine());
         //List<string> intList = new List<string>();
         //intList.Add("Green");
@@ -65,7 +71,7 @@ using System.Collections.Generic;
         //intList.Add("Yellow");
         //intList.Add("Red");
 
-        //Console.WriteLine(list[intList]);
+        //Console.WriteLine(intList[list]);
         //Console.ReadLine();
 
         }
