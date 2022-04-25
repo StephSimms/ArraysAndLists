@@ -51,13 +51,22 @@ using System.Collections.Generic;
         //Console.ReadLine();
 
         Console.WriteLine("Select an index of the array between 0 - 6");
-        string yourstringarray = (Console.ReadLine());
-        string[] yourstringArray1= new string[] { Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday };
+        int yourstringarray = Convert.ToInt32(Console.ReadLine());
+        string[] yourstringArray1= new string[] { "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday" };
         
         Console.WriteLine(yourstringArray1[yourstringarray]);
         Console.ReadLine();
 
+        //Console.WriteLine("Select an index of the list between 0 -3");
+        //int list = Convert.ToInt32(Console.ReadLine());
+        //List<string> intList = new List<string>();
+        //intList.Add("Green");
+        //intList.Add("Blue");
+        //intList.Add("Yellow");
+        //intList.Add("Red");
 
+        //Console.WriteLine(list[intList]);
+        //Console.ReadLine();
 
         }
     }
